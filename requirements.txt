@@ -1,0 +1,9 @@
+discord.py
+flask~=2.0.1
+replit~=3.1.0
+discord~=1.0.1
+
+cloudscraper~=1.2.58
+beautifulsoup4~=4.9.3
+motor~=2.4.0
+python-dotenv~=0.17.1

@@ -14,8 +14,8 @@ import cogs._json
 
 from cogs._aternosapi import AternosAPI
 
-headers_cookie = "ATERNOS_SEC_7a8aa7g1ga400000=ef9viqjp3pn00000; ATERNOS_LANGUAGE=en; ATERNOS_SESSION=YYkWYnNSlxmeeGBDSnQPCzlQ6ooYZtaSTVzSSy7kwPrux9gc0JKTFCwDWvdBZnExY6bz9GDq23nQ19Qv25XtCeWkjiFYedZFFDH4; ATERNOS_SERVER=CwNPaYK1z1T4V7Pm"
-TOKEN = "7EjBv49rJwrFSeTHL9Eynsx8BBmjff54FBp9OuuKroGm7ozrk8lT1SeXeVxhWkcpNn3qOSREPBDVk2lx0O0UD8PrLOayc5o0I6WJ"
+headers_cookie = "ATERNOS_SEC_ityn6tb0n6d00000=shndl5ow81t00000; ATERNOS_LANGUAGE=en; ATERNOS_SESSION=YYkWYnNSlxmeeGBDSnQPCzlQ6ooYZtaSTVzSSy7kwPrux9gc0JKTFCwDWvdBZnExY6bz9GDq23nQ19Qv25XtCeWkjiFYedZFFDH4; ATERNOS_SERVER=CwNPaYK1z1T4V7Pm"
+TOKEN = "YYkWYnNSlxmeeGBDSnQPCzlQ6ooYZtaSTVzSSy7kwPrux9gc0JKTFCwDWvdBZnExY6bz9GDq23nQ19Qv25XtCeWkjiFYedZFFDH4"
 server = AternosAPI(headers_cookie, TOKEN, timeout = 10)
 
 if os.path.exists(".env"):
